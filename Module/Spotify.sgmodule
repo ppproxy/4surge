@@ -1,0 +1,10 @@
+#!name=Spotify RmAd
+#!desc=https://github.com/zhihenglu/SurgeModule/
+
+[URL Rewrite]
+^https?://spclient.wg.spotify.com/ad-logic/* - reject
+^https?://spclient.wg.spotify.com/ads/* - reject
+^https?://spclient.wg.spotify.com/.+ad_slot - reject
+
+[MITM]
+hostname = %APPEND% spclient.wg.spotify.com
