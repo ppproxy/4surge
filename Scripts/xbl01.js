@@ -1,4 +1,3 @@
-console.log($response);
 if ($request.method != "POST" || $response.status != 200) {
   $done({});
 } else {
