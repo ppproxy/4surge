@@ -3,9 +3,13 @@
 #!system=ios
 
 [Rule]
-DOMAIN-SUFFIX,qinlinad.com,REJECT
-DOMAIN,mallapi.qinlinkeji.com,REJECT
-DOMAIN,mall-dsp.qinlinkeji.com,REJECT
+#DOMAIN-SUFFIX,qinlinad.com,REJECT
+#DOMAIN,mallapi.qinlinkeji.com,REJECT
+#DOMAIN,mall-dsp.qinlinkeji.com,REJECT
+
+DOMAIN-SUFFIX,qinlinad.com,Charles
+DOMAIN,mallapi.qinlinkeji.com,Charles
+DOMAIN,mall-dsp.qinlinkeji.com,Charles
 
 [MITM]
 hostname = %APPEND% qinlinad.com, mallapi.qinlinkeji.com, mall-dsp.qinlinkeji.com
