@@ -1,0 +1,9 @@
+#!name=Block Qinlin AD
+#!desc=Block Qinlin AD in miniApp and others
+#!system=ios
+
+[Rule]
+DOMAIN-SUFFIX,qinlinad.com,REJECT
+
+[MITM]
+hostname = %APPEND% qinlinad.com
