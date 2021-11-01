@@ -6,4 +6,6 @@
 DOMAIN-SUFFIX,qinlinad.com,REJECT
 DOMAIN,mallapi.qinlinkeji.com,REJECT
 DOMAIN,mall-dsp.qinlinkeji.com,REJECT
-DOMAIN,mobileapi.qinlinkeji.com,Charles
+
+[MITM]
+hostname = %APPEND% mobileapi.qinlinkeji.com, qapp.qinlinkeji.com
