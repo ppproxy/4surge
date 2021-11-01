@@ -4,6 +4,8 @@
 
 [Rule]
 DOMAIN-SUFFIX,qinlinad.com,REJECT
+DOMAIN,mallapi.qinlinkeji.com,REJECT
+DOMAIN,mall-dsp.qinlinkeji.com,REJECT
 
 [MITM]
-hostname = %APPEND% qinlinad.com
+hostname = %APPEND% qinlinad.com, mallapi.qinlinkeji.com, mall-dsp.qinlinkeji.com
