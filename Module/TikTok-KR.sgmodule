@@ -1,6 +1,5 @@
-
 #!name=TikTok Unlock for KR
-#!desc=Remove TikTok's regional restrictions.
+#!desc=Remove TikTok's regional restrictions. mini Version <21.3 is required
 #!system=ios
 
 [URL Rewrite]
