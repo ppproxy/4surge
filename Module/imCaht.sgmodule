@@ -6,4 +6,4 @@
 http-response ^https://api\.5iwp\.top/user/check$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ppproxy/4surge/main/Scripts/imchat01.js
 
 [MITM]
-hostname = api.5iwp.top
+hostname = %APPEND% api.5iwp.top
