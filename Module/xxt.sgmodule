@@ -1,0 +1,9 @@
+#!name=xxt test
+#!desc=Funny funny funny
+
+
+[Script]
+http-response ^https://api-qidatestin\.yunxuetang\.cn/v1/studyapi/uk/singlepostsync$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ppproxy/4surge/main/Scripts/xxt01.js
+
+[MITM]
+hostname = %APPEND% api-qidatestin.yunxuetang.cn
