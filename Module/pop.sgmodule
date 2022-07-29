@@ -1,0 +1,21 @@
+#!name=block pop ads
+#!desc=block some pop ads
+
+[Rule]
+# > 百度地图开屏广告@ddgksf2013 *.bdstatic.com,
+URL-REGEX,^https?:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.jpg,REJECT
+
+# > 飞猪 @ddgksf2013 gw.alicdn.com,
+URL-REGEX,^https?:\/\/gw\.alicdn\.com\/imgextra\/\w{2}\/[\w!]+-\d-tps-\d{3}-\d{4}\.(jpg|png)$,REJECT
+
+# > 京东开屏广告@ddgksf2013
+URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start,REJECT
+
+# > 美团外卖开屏广告@ddgksf2013 wmapi.meituan.com,
+URL-REGEX,^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo\?,REJECT
+
+# > 12306开屏广告(倒计时仍然存在）@ddgksf2013 ad.12306.cn,
+DOMAIN-SUFFIX,ad.12306.cn,REJECT
+
+[MITM]
+hostname = %APPEND% ad.12306.cn,dss0.bdstatic.com,gw.alicdn.com,wmapi.meituan.com,api.m.jd.com
