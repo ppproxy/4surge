@@ -1,0 +1,14 @@
+#!name=private ads
+#!desc=some private ad rules
+
+[Rule]
+# Meituan and Dianping
+DOMAIN-SUFFIX,dreport.meituan.net,REJECT-DROP
+DOMAIN-SUFFIX,wreport1.meituan.net,REJECT-DROP
+DOMAIN-SUFFIX,report.meituan.com,REJECT-DROP
+DOMAIN-SUFFIX,hreport.meituan.com,REJECT-DROP
+DOMAIN-SUFFIX,api.neixin.cn,REJECT-DROP
+DOMAIN-SUFFIX,catdot.dianping.com,REJECT-DROP
+DOMAIN-SUFFIX,medusa.dianping.com,REJECT-DROP
+DOMAIN-SUFFIX,portal-portm.meituan.com,REJECT
+DOMAIN-SUFFIX,sankuai.com,REJECT-DROP
