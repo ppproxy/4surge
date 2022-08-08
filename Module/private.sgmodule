@@ -25,8 +25,17 @@ DOMAIN-SUFFIX,apm-track-test.xiaohongshu.com,REJECT
 DOMAIN-SUFFIX,fse.xiaohongshu.com,REJECT
 DOMAIN-SUFFIX,fse.devops.xiaohongshu.com,REJECT
 DOMAIN-SUFFIX,fesentry.xiaohongshu.com,REJECT
+DOMAIN-SUFFIX,ads-img-al.xhscdn.com,REJECT
+DOMAIN-SUFFIX,ads-video-al.xhscdn.com,REJECT
+DOMAIN-SUFFIX,ads-video-qc.xhscdn.com,REJECT
+DOMAIN-SUFFIX,t-ads.xiaohongshu.com,REJECT
+# 开屏 //edith.xiaohongshu.com
+# ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu_launch.js
 URL-REGEX,^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/apple\/record,REJECT
 URL-REGEX,^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/tag\/ads_engage,REJECT
+URL-REGEX,^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/resource,REJECT
+URL-REGEX,^https?:\/\/pages\.xiaohongshu\.com\/data\/native\/matrix_switches,REJECT
+
 
 [MITM]
 hostname = %APPEND% *.xiaohongshu.com
