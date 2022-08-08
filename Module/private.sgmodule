@@ -26,6 +26,7 @@ DOMAIN-SUFFIX,fse.xiaohongshu.com,REJECT
 DOMAIN-SUFFIX,fse.devops.xiaohongshu.com,REJECT
 DOMAIN-SUFFIX,fesentry.xiaohongshu.com,REJECT
 URL-REGEX,^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/apple\/record,REJECT
+URL-REGEX,^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/tag\/ads_engage,REJECT
 
 [MITM]
 hostname = %APPEND% *.xiaohongshu.com
