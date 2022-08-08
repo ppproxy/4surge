@@ -12,3 +12,20 @@ DOMAIN-SUFFIX,catdot.dianping.com,REJECT-DROP
 DOMAIN-SUFFIX,medusa.dianping.com,REJECT-DROP
 DOMAIN-SUFFIX,portal-portm.meituan.com,REJECT
 DOMAIN-SUFFIX,sankuai.com,REJECT-DROP
+# XiaoHongShu
+DOMAIN-SUFFIX,c.xiaohongshu.com,REJECT
+DOMAIN-SUFFIX,t.xiaohongshu.com,REJECT
+DOMAIN-SUFFIX,t2.xiaohongshu.com,REJECT
+DOMAIN-SUFFIX,t2-test.xiaohongshu.com,REJECT
+DOMAIN-SUFFIX,as.xiaohongshu.com,REJECT
+DOMAIN-SUFFIX,lng.xiaohongshu.com,REJECT
+DOMAIN-SUFFIX,as.xiaohongshu.com,REJECT
+DOMAIN-SUFFIX,apm-track.xiaohongshu.com,REJECT
+DOMAIN-SUFFIX,apm-track-test.xiaohongshu.com,REJECT
+DOMAIN-SUFFIX,fse.xiaohongshu.com,REJECT
+DOMAIN-SUFFIX,fse.devops.xiaohongshu.com,REJECT
+DOMAIN-SUFFIX,fesentry.xiaohongshu.com,REJECT
+URL-REGEX,^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/apple\/record,REJECT
+
+[MITM]
+hostname = %APPEND% *.xiaohongshu.com
