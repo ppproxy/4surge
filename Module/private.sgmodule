@@ -12,6 +12,10 @@ DOMAIN-SUFFIX,catdot.dianping.com,REJECT-DROP
 DOMAIN-SUFFIX,medusa.dianping.com,REJECT-DROP
 DOMAIN-SUFFIX,portal-portm.meituan.com,REJECT
 DOMAIN-SUFFIX,sankuai.com,REJECT-DROP
+URL-REGEX,^https?:\/\/s3plus\.meituan\.net\/v1\/[0-9a-zA-Z-_=/?.]*\/brandcpt-vedio\/[0-9a-zA-Z-_=/?.]*,REJECT
+URL-REGEX,^https?:\/\/img\.meituan\.net/bizad/bizad_brandCpt_[0-9]*\.jpg\.webp@1284w_1l,REJECT
+URL-REGEX,^https?:\/\/p[0-9]\.meituan\.net[0-9a-zA-Z-_=/?.]*\/bizad[0-9a-zA-Z-_=/?.]*,REJECT
+
 # XiaoHongShu
 DOMAIN-SUFFIX,c.xiaohongshu.com,REJECT
 DOMAIN-SUFFIX,t.xiaohongshu.com,REJECT
