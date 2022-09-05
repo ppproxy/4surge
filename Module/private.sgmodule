@@ -2,6 +2,9 @@
 #!desc=some private ad rules
 
 [Rule]
+# Kuaishou
+DOMAIN-SUFFIX,adkwai.com,REJECT-DROP
+
 # Meituan and Dianping
 DOMAIN-SUFFIX,dreport.meituan.net,REJECT-DROP
 DOMAIN-SUFFIX,wreport1.meituan.net,REJECT-DROP
