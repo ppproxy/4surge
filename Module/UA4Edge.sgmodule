@@ -1,0 +1,7 @@
+#!name=User-Agent for Edge
+#!desc=4 Bing with ChatGPT
+
+[Script]
+script = type=http-request,pattern=^http(s)?:\/\/(?:.*\.)?bing\.com,script-path=https://gist.github.com/geekdada/6d136126daee8811f24c2d4e79b7baa5/raw/edge-useragent.js,requires-body=false
+[MITM]
+hostname = %APPEND% *.bing.com, bing.com
