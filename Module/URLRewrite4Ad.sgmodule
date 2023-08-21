@@ -6,6 +6,22 @@
 URL-REGEX,^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start,REJECT-TINYGIF
 
 [URL Rewrite]
+# Fxxx ISP
+# > Anti_ISP_JavaScript_Injection header
+^https?:\/\/c\.minisplat\.cn _ reject
+^https?:\/\/c1\.minisplat\.cn _ reject
+^https?:\/\/cache\.changjingyi\.cn _ reject
+^https?:\/\/cache\.gclick\.cn _ reject
+# > Anti_ISP_Safari_Baidu_CPM_Hijack header
+^https?:\/\/m\.coolaiy\.com\/b\.php _ reject
+^https?:\/\/www\.babyye\.com\/b\.php _ reject
+^https?:\/\/www\.gwv7\.com\/b\.php _ reject
+^https?:\/\/www\.likeji\.net\/b\.php _ reject
+# > ChinaRailcom header
+^https?:\/\/211\.98\.70\.226:8080\/ _ reject
+^https?:\/\/211\.98\.71\.195:8080\/ _ reject
+^https?:\/\/211\.98\.71\.196:8080\/ _ reject
+
 # 0~9
 # > 21st Century Business Herald - api.21jingji.com
 ^https?:\/\/api\.21jingji\.com\/ad\/ - reject
