@@ -1,0 +1,6 @@
+#!name=302 Rewrite
+#!desc=General rules for Http and Header Rewrite
+
+[URL Rewrite]
+
+[Header Rewrite]
