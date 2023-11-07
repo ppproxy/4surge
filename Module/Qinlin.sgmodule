@@ -3,7 +3,7 @@
 #!system=ios
 
 [Rule]
-DOMAIN-SUFFIX,qinlinad.com,REJECT
+DOMAIN-SUFFIX,qadx.qinlinad.com,REJECT
 DOMAIN,mallapi.qinlinkeji.com,REJECT
 DOMAIN,mall-dsp.qinlinkeji.com,REJECT
 
