@@ -1,6 +1,5 @@
-#!name=OpenAI
-#!desc=OpenAI and Stripe
-#!system=All
+#!name=openai
+#!desc=openai and stripe
 
 [Rule]
 DOMAIN-SUFFIX,openai.com,Proxy
