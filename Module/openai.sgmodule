@@ -1,0 +1,9 @@
+#!name=OpenAI
+#!desc=OpenAI and Stripe
+#!system=All
+
+[Rule]
+DOMAIN-SUFFIX,openai.com,Proxy
+DOMAIN-SUFFIX,stripe.com,Proxy
+DOMAIN-SUFFIX,oaistatic.com,Proxy
+DOMAIN-SUFFIX,oaiusercontent.com,Proxy
