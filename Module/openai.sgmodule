@@ -2,7 +2,7 @@
 #!desc=openai and stripe
 
 [Rule]
-DOMAIN-SUFFIX,openai.com,Proxy
-DOMAIN-SUFFIX,stripe.com,Proxy
-DOMAIN-SUFFIX,oaistatic.com,Proxy
-DOMAIN-SUFFIX,oaiusercontent.com,Proxy
+DOMAIN-SUFFIX,openai.com,Tmp
+DOMAIN-SUFFIX,stripe.com,Tmp
+DOMAIN-SUFFIX,oaistatic.com,Tmp
+DOMAIN-SUFFIX,oaiusercontent.com,Tmp
