@@ -1,0 +1,8 @@
+#!name= stripe
+#!desc= stripe only
+
+[Rule]
+DOMAIN-SUFFIX,stripe.com,Tmp
+DOMAIN-SUFFIX,stripecdn.com,Tmp
+DOMAIN-SUFFIX,stripe.network,Tmp
+DOMAIN-SUFFIX,stripe-camo.global.ssl.fastly.net,Tmp
