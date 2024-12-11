@@ -4,7 +4,7 @@
 [Rule]
 DOMAIN-SUFFIX,openai.com,Tmp
 DOMAIN-SUFFIX,chatgpt.com,Tmp
-DOMAIN-SUFFIX,stripe.com,Tmp
+#DOMAIN-SUFFIX,stripe.com,Tmp
 DOMAIN-SUFFIX,oaistatic.com,Tmp
 DOMAIN-SUFFIX,oaiusercontent.com,Tmp
 
