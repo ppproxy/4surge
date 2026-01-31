@@ -1,0 +1,13 @@
+#!name=All about Reddit
+#!desc=Reddit Related Domain Routing Rules
+
+[Rule]
+##Reddit
+DOMAIN-SUFFIX,redd.it,🇯🇵bage
+DOMAIN-SUFFIX,reddit.com,🇯🇵bage
+DOMAIN-SUFFIX,redditmail.com,🇯🇵bage
+DOMAIN-SUFFIX,redditmedia.com,🇯🇵bage
+DOMAIN-SUFFIX,redditstatic.com,🇯🇵bage
+DOMAIN-SUFFIX,reddituploads.com,🇯🇵bage
+DOMAIN-SUFFIX,reddituploads.com.cdn-cf.behance.net,🇯🇵bage
+DOMAIN-SUFFIX,reddituploads.com.cdn-cf.dropbox.com,🇯🇵bage
