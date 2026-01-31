@@ -1,0 +1,36 @@
+#!name=All about AI
+#!desc=AI Related Domain Routing Rules
+
+[Rule]
+##Gemini
+DOMAIN,ai.google.dev,Tmp
+DOMAIN,alkalimakersuite-pa.clients6.google.com,Tmp
+DOMAIN,makersuite.google.com,Tmp
+DOMAIN-SUFFIX,bard.google.com,Tmp
+DOMAIN-SUFFIX,deepmind.com,Tmp
+DOMAIN-SUFFIX,deepmind.google,Tmp
+DOMAIN-SUFFIX,gemini.google.com,Tmp
+DOMAIN-SUFFIX,generativeai.google,Tmp
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,Tmp
+DOMAIN-SUFFIX,apis.google.com,Tmp
+DOMAIN-KEYWORD,colab,Tmp
+DOMAIN-KEYWORD,developerprofiles,Tmp
+DOMAIN-KEYWORD,generativelanguag,Tmp
+DOMAIN-SUFFIX,googleapis.com,Tmp
+
+##Claude and OpenAI
+DOMAIN,cdn.usefathom.com,Tmp
+DOMAIN-SUFFIX,anthropic.com,Tmp
+DOMAIN-SUFFIX,claude.ai,Tmp
+DOMAIN-SUFFIX,claudeusercontent.com,Tmp
+DOMAIN-SUFFIX,anthropic.com,Tmp
+DOMAIN-SUFFIX,auth0.com,Tmp
+DOMAIN-SUFFIX,auth0.openai.com,Tmp
+DOMAIN-SUFFIX,openai.com,Tmp
+DOMAIN-SUFFIX,chatgpt.com,Tmp
+DOMAIN-SUFFIX,oaistatic.com,Tmp
+DOMAIN-SUFFIX,oaiusercontent.com,Tmp
+
+##Stripe
+#DOMAIN-SUFFIX,invoice.stripe.com,Tmp
+#DOMAIN-SUFFIX,stripe.com,Tmp
