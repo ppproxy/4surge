@@ -3,11 +3,11 @@
 
 [Rule]
 ##Reddit
-DOMAIN-SUFFIX,redd.it,🇯🇵bage
-DOMAIN-SUFFIX,reddit.com,🇯🇵bage
-DOMAIN-SUFFIX,redditmail.com,🇯🇵bage
-DOMAIN-SUFFIX,redditmedia.com,🇯🇵bage
-DOMAIN-SUFFIX,redditstatic.com,🇯🇵bage
-DOMAIN-SUFFIX,reddituploads.com,🇯🇵bage
-DOMAIN-SUFFIX,reddituploads.com.cdn-cf.behance.net,🇯🇵bage
-DOMAIN-SUFFIX,reddituploads.com.cdn-cf.dropbox.com,🇯🇵bage
+DOMAIN-SUFFIX,redd.it,Tmp
+DOMAIN-SUFFIX,reddit.com,Tmp
+DOMAIN-SUFFIX,redditmail.com,Tmp
+DOMAIN-SUFFIX,redditmedia.com,Tmp
+DOMAIN-SUFFIX,redditstatic.com,Tmp
+DOMAIN-SUFFIX,reddituploads.com,Tmp
+DOMAIN-SUFFIX,reddituploads.com.cdn-cf.behance.net,Tmp
+DOMAIN-SUFFIX,reddituploads.com.cdn-cf.dropbox.com,Tmp
